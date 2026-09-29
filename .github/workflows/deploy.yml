@@ -1,9 +1,9 @@
 name: Deploy Terraform Configuration
-# trigger the workflow on push to the master branch
+# trigger the workflow on push to the main branch
 on:
   push:
     branches:
-      - master
+      - main
 # define the jobs to run in the workflow
 jobs:
   deploy:
