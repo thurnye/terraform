@@ -1,4 +1,4 @@
-name: Deploy Terraform Configuration
+name: Destroy Terraform Configuration
 # trigger the workflow on push to the master branch
 on:
   workflow_dispatch:
